@@ -12,5 +12,9 @@ public class HomeController {
 		
 		return"Wecome";
 	}
-
+@GetMapping("/msg")
+	public String printMsg() {
+		
+		return"Success";
+	}
 }
